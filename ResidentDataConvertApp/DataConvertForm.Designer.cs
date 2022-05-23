@@ -118,7 +118,7 @@
             this.groupBox1.Size = new System.Drawing.Size(270, 233);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Data Convert";
+            this.groupBox1.Text = "Medi-Map Patient Convert";
             // 
             // versionLabel
             // 
@@ -146,7 +146,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "DataConvertForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DataConvert";
+            this.Text = "Medi-Map Patient Convert";
             this.Load += new System.EventHandler(this.DataConvertForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
