@@ -35,7 +35,9 @@ namespace BusinessLayer
                         LastName = residentsToBeConvert[i].SurnName,
                         Gender = residentsToBeConvert[i].Gen,
                         PatientUniqueIdentifierType = !string.IsNullOrEmpty(residentsToBeConvert[i].Nhi) ? CommonValue.NHI : null,
-                        PatientUniqueIdentifier = residentsToBeConvert[i].Nhi
+                        PatientUniqueIdentifier = residentsToBeConvert[i].Nhi,
+                        ResidentType = CommonValue.ResidentTypeDefault
+
                     };
                     converted.DOB = DateTime.TryParse(residentsToBeConvert[i].Dob, out DateTime dateTime) ? dateTime.ToString(CommonValue.DateTimeFormat) : null;
 

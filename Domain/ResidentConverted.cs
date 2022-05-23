@@ -12,9 +12,11 @@
         public string DOB { get; set; }
         [CsvHelper.Configuration.Attributes.Name("Resident Type of care")]
         public string ResidentType { get; set; }
-        [CsvHelper.Configuration.Attributes.Name("Resident Number")]
+        [CsvHelper.Configuration.Attributes.Name("Room Number")]
         public string RoomNum { get; set; }
+        [CsvHelper.Configuration.Attributes.Name("Patient Unique Identifier Type")]
         public string PatientUniqueIdentifierType { get; set; }
+        [CsvHelper.Configuration.Attributes.Name("Patient Unique Identifier")]
         public string PatientUniqueIdentifier { get; set; }
     }
 }

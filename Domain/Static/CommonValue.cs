@@ -24,5 +24,6 @@
         public const string RequiredFieldNHI = "NHI";
         public const string ConvertingComplete = "Converting complete";
         public const string Success = "Success";
+        public const string ResidentTypeDefault = "Undefined";
     }
 }
